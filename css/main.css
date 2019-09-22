@@ -1,15 +1,4 @@
-/* start navbar */
-.navbar {
-  background-color: #434440;
-}
-
-.navbar a {
-  color: #fff;
-}
-/* end navbar */
-
-/* start hero */
-#hero {
+body {
   background: -moz-linear-gradient(
     282deg,
     #6e6f6b 0%,
@@ -55,12 +44,34 @@
     #6e6f6b 100%
   ); /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6E6F6B', endColorstr='#6E6F6B',GradientType=0 ); /* ie6-9 */
+}
+
+/* start navbar */
+.navbar {
+  background-color: #434440;
+}
+
+.navbar a {
+  color: #fff;
+}
+/* end navbar */
+
+/* start hero */
+#hero {
   padding-bottom: 3em;
+}
+
+#hero a:hover {
+  text-decoration: none;
+  transform: scale(1.01);
 }
 
 .card {
   background-color: #1c1d1a;
   border: 0;
+  -webkit-box-shadow: 3px 3px 53px -4px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 3px 3px 53px -4px rgba(0, 0, 0, 0.61);
+  box-shadow: 3px 3px 53px -4px rgba(0, 0, 0, 0.61);
 }
 
 .card-title {
