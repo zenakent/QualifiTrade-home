@@ -1,0 +1,88 @@
+/* start navbar */
+.navbar {
+  background-color: #434440;
+}
+
+.navbar a {
+  color: #fff;
+}
+/* end navbar */
+
+/* start hero */
+#hero {
+  background: linear-gradient(
+    153deg,
+    rgba(110, 111, 107, 1) 0%,
+    rgba(110, 111, 107, 0.8211659663865546) 89%
+  );
+  padding-bottom: 3em;
+}
+
+.card {
+  background-color: #1c1d1a;
+  border: 0;
+}
+
+.card-title {
+  background-color: #434440;
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.card .card-body .blog-pic {
+  position: relative;
+  left: 16px;
+}
+
+.post-job {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.25fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.post-job-title {
+  grid-area: 1 / 1 / 2 / 6;
+}
+.post-job-body {
+  grid-area: 2 / 1 / 6 / 6;
+}
+/* end hero */
+
+/* start steps */
+#steps li {
+  margin: 10px 0px;
+}
+
+#steps p {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* end steps */
+
+/* start offer */
+#offer {
+  padding-bottom: 3em;
+}
+
+#offer .header {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#offer .description {
+  font-weight: 700;
+}
+/* end offer */
+
+/* start footer */
+#footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 2em 0;
+}
+
+/* end footer */
